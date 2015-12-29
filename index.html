@@ -1,11 +1,10 @@
 <html>
 <head>
-	<title>The Followx</title>
-
+	<title>The Fox</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-  <!-- <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
   
 
 </head>
@@ -14,13 +13,19 @@
 	<div class="main-wrapper">
     
     <!-- menu starts -->
+
 		<div class="main-head">
-			<div class="menu-wrapper">
+			<div class="menu-wrapper clearfix">
+
         <div class="logo"><img src="images/logo.png"></div>
-        <img src="images/search.png">
+
+        <div class="search"> 
+          <img src="images/search.png">
+        </div>
+
         <div class="menu">
-          <ul>
-            <li><a href="google.com">Home</a></li>
+          <ul class = "clearfix">
+            <li><a href="#">Home</a></li>
             <li><a href="#">Page</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Blog</a></li>
@@ -44,13 +49,14 @@
            <img src="images/img-desc.png"> -->
 
         <ul>
+
           <li class="slider-image">              
               <img src="images/cover.png"/>
-              <span class="text-container">
-                <span class="img-desc">
+              <div class="text-container">
+                <div class="img-desc">
                   <img src="images/img-desc.png">
-                </span>
-              </span>
+                </div>
+              </div>
           </li>
 
 
@@ -74,6 +80,7 @@
               </div>
 
           </li>
+
         </ul>
         
 				
@@ -83,102 +90,138 @@
 
   <!-- features -->
     <div class="feature-wrapper">
-      <div class="feature-container clearfix">
-        <div class="feature profile">
+      <div class="feature-container">
 
-          <div class="feature-head">
-            <div class="head-image">
-              <img src="images/profile.png">
-            </div>
-            <div class="head-title">
-              <p>CREATIVE TEAM PROFILE</p>
-            </div>
-          </div>
+        <ul class="clearfix">
+        
+          <li class = "feature">
+            <!-- <div class="feature profile"> -->
 
-          <div class="feature-desc">
-            <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Praesent ornare felis ante, sit amet porta </p>
-          </div>
+              <div class="feature-head">
+                <img src="images/profile.png"/>
+                
+                <div class="head-title">
+                  <p>CREATIVE TEAM PROFILE</p>
+                </div>
 
-        </div>
-        <div class="feature portfolio">
-          <div class="feature-head">
-            <div class="head-image">
-              <img src="images/portfolio.png">
-            </div>
-            <div class="head-title">
-              <p>AMAZING PORTFOLIO</p>
-            </div>
-          </div>
+              </div>
 
-          <div class="feature-desc">
-            <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Praesent ornare felis ante, sit amet porta </p>
-          </div>
+              <div class="feature-desc">
+                <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum.
+                  Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta</p>
+              </div>
 
-        </div>
+            <!-- </div> -->
 
-        <div class="feature design">
-          <div class="feature-head">
-            <div class="head-image">
-              <img src="images/design.png">
-            </div>
-            <div class="head-title">
-              <p>GREAT BLOG DESIGN</p>
-            </div>
-          </div>
+          </li>
 
-          <div class="feature-desc">
-            <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Praesent ornare felis ante, sit amet porta </p>
-          </div>
+          <li class="feature">
 
-        </div>
+            <!-- <div class="feature portfolio"> -->
+              <div class="feature-head">
+                <img src="images/portfolio.png">
 
-        <div class="feature service">
-          <div class="feature-head">
-            <div class="head-image">
-              <img src="images/support.png">
-            </div>
-            <div class="head-title">
-              <p>AWESOME SUPPORT SERVICE</p>
-            </div>
-          </div>
+                <div class="head-title">
+                  <p>AMAZING PORTFOLIO</p>
+                </div>
 
-          <div class="feature-desc">
-            <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Praesent ornare felis ante, sit amet porta </p>
-          </div>
+              </div>
 
-        </div>
+              <div class="feature-desc">
+                <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum.
+                  Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
+              </div>
 
-        <div class="feature customize">
-          <div class="feature-head">
-            <div class="head-image">
-              <img src="images/customize.png">
-            </div>
-            <div class="head-title">
-              <p>EASY TO CUSTOMIZE</p>
-            </div>
-          </div>
+            <!-- </div> -->
 
-          <div class="feature-desc">
-            <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Praesent ornare felis ante, sit amet porta </p>
-          </div>
+          </li>
 
-        </div>
+          <li class="feature design">
 
-        <div class="feature short-codes">
-          <div class="feature-head">
-            <div class="head-image">
-              <img src="images/shortcodes.png">
-            </div>
-            <div class="head-title">
-              <p>FULL SHORTCODES READY</p>
-            </div>
-          </div>
+            <!-- <div class="feature design"> -->
+              <div class="feature-head">
+                <img src="images/design.png">
 
-          <div class="feature-desc">
-            <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Praesent ornare felis ante, sit amet porta </p>
-          </div>
+                <div class="head-title">
+                  <p>GREAT BLOG DESIGN</p>
+                </div>
 
-        </div>
+              </div>
+
+              <div class="feature-desc">
+                <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum.
+                  Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
+              </div>
+
+            <!-- </div> -->
+
+          </li>
+
+          <li class="feature">
+
+
+            <!-- <div class="feature service"> -->
+              <div class="feature-head">
+                <img src="images/support.png">
+                
+                <div class="head-title">
+                  <p>AWESOME SUPPORT SERVICE</p>
+                </div>
+
+              </div>
+
+              <div class="feature-desc">
+                <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. 
+                  Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
+              </div>
+
+            <!-- </div> -->
+
+          </li>
+
+          <li class="feature">
+
+            <!-- <div class="feature customize"> -->
+              <div class="feature-head">
+                <img src="images/customize.png">
+                
+                <div class="head-title">
+                  <p>EASY TO CUSTOMIZE</p>
+                </div>
+
+              </div>
+
+              <div class="feature-desc">
+                <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum.
+                  Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Prae- sent ornare felis ante, sit amet porta </p>
+              </div>
+
+            <!-- </div> -->
+
+          </li>
+
+          <li class="feature short-codes">
+
+            <!-- <div class="feature short-codes"> -->
+              <div class="feature-head">
+                <img src="images/shortcodes.png">
+                
+                <div class="head-title">
+                  <p>FULL SHORTCODES READY</p>
+                </div>
+
+              </div>
+
+              <div class="feature-desc">
+                <P>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis aru posuere condimentum. 
+                  Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero. Prae- sent ornare felis ante, sit amet porta </p>
+              </div>
+
+            <!-- </div> -->
+
+          </li>
+
+        </ul>
 
       </div>
 
@@ -189,7 +232,7 @@
       <div class="status-bar clearfix">
 
         <div class="status-section">
-          <span class="counter">7000</span>
+          <span class="counter">79000</span>
           <span class= "title">PURCHASES</span>
         </div>
 
@@ -445,29 +488,29 @@
     var resolution = new Resolution();
     var width = resolution.setWindowHeight();
     // var slider = document.getElementsByClassName("slider-long")[0];
-    var slider = document.getElementsByClassName("slider-long")[0];
-    var sliderLong = slider.children[0];
-    var slides = sliderLong.children;
-    var counter = 1;
-    var no_slides = slides.length;
-    console.log(no_slides);
+    // var slider = document.getElementsByClassName("slider-long")[0];
+    // var sliderLong = slider.children[0];
+    // var slides = sliderLong.children;
+    // var counter = 1;
+    // var no_slides = slides.length;
+    // console.log(no_slides);
     // var animator = new Animator(slider);
-    var interval = setInterval(slide, 3000);
-    function slide() {
-      // console.log('counter',counter);
-      if(counter==no_slides){
-        animator.animate("margin-left", width*(counter-1),2000);
-        counter = 1;
-      }
+    // var interval = setInterval(slide, 3000);
+    // function slide() {
+    //   // console.log('counter',counter);
+    //   if(counter==no_slides){
+    //     animator.animate("margin-left", width*(counter-1),2000);
+    //     counter = 1;
+    //   }
 
-      else{
-        counter++;
-        // console.log(counter, no_slides,'test');
-        // console.log("i",no_slides);
-        animator.animate("margin-left", -width, 2000);
-      }
+    //   else{
+    //     counter++;
+    //     // console.log(counter, no_slides,'test');
+    //     // console.log("i",no_slides);
+    //     animator.animate("margin-left", -width, 2000);
+    //   }
       
-    }
+    // }
     
   </script>
 </body>

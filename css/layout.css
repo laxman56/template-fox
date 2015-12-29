@@ -1,35 +1,40 @@
+
 .main-wrapper{
 	width: 100%;
+  font-family: Lato;
 }
 
 /*menu*/
 
 .main-head{
   width: 100%;
-  background: pink;
   position: fixed;
   z-index: 100;
   top: 32px;
 
 }
 .menu-wrapper{
-  height: 45px;
+  /*height: 45px;*/
   max-width: 73.125em;
   margin: 0 auto;
 }
 .logo{
   float: left;
-  background: #ffffff;
-
+  width: 13.58974358974359%;
 }
 
 .menu{
-  line-height: 45px;
-  height: 45px;
+  line-height: 42px;
   float: right;
+  font-size: 16px;
+  color: #ffffff;
 }
 
-
+.search{
+  padding-top: 12px;
+  float: right;
+  padding-left: 41px;
+}
 
 /*slider*/
 .slider-wrapper{  
@@ -91,6 +96,8 @@
 
 .feature-wrapper{
   width: 100%;
+  color: red;
+  
 }
 
 .feature-container{
@@ -106,45 +113,18 @@
   float: left;
 }
 
-.feature.profile{
-  /*background: orange;*/
-}
-
-.feature.portfolio{
-  /*background: green;*/
-}
-
 .feature.design{
   /*background: orange;*/
   padding: 0 0 22px 0;
 }
 
-.feature.service{
-  /*background: green;*/
-}
-
-.feature.customize{
-  /*background: orange;*/
-}
 
 .feature.short-codes{
   /*background: green;*/
   padding: 0 0 22px 0;
 }
-/*.feature-container .design{
-  width: 31.11111111111111%;
-  background: #abd373;
-  padding-right: 6px;
-  float: right;
-}*/
 
-.head-image{
-  float: left;
-}
 
-.head-title{
-  
-}
 
 .status-bar-wrapper{
   width: 100%;

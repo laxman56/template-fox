@@ -20,7 +20,7 @@ function Counter(){
 				if(counter <= maxValue[j])
 					element[j].innerHTML = counter;
 			}
-			counter++;
+			counter = counter+10;
 			// console.log(maxCount,counter);
 			if( counter > maxCount )
 				clearInterval(intervalId);
