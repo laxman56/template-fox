@@ -102,26 +102,23 @@
 
 .feature-container{
   max-width: 73.125em;
-  padding: 100px 0 65px 0;
+  padding: 100px 0 40px 0;
   margin: 0 auto;
 }
 
 .feature{
   width: 31.02564102564103%;
-  padding: 0 35px 22px 0;
-  /*background: #4e449a;*/
+  padding: 0 35px 44px 0;
   float: left;
 }
 
 .feature.design{
-  /*background: orange;*/
-  padding: 0 0 22px 0;
+  padding: 0 0 44px 0;
 }
 
 
 .feature.short-codes{
-  /*background: green;*/
-  padding: 0 0 22px 0;
+  padding: 0 0 44px 0;
 }
 
 
@@ -129,7 +126,7 @@
 .status-bar-wrapper{
   width: 100%;
   background: #e36968;
-  padding: 59px 0 66px 0;
+  padding: 55px 0 63px 0;
 }
 
 .status-bar{
