@@ -25,7 +25,7 @@
 
 	.feature{
 		width: 45%;
-    padding: 0px 3px 44px 35px;
+    padding: 0px 3px 44px 34px;
 
 	}
 
@@ -40,25 +40,29 @@
   }
 
 	.purchase{
-		padding: 63px 26px 53px;
-    width: 43.23%;
+		width: 80.11%;
+    padding: 63px 102px 53px;
 
 	}
 
-  .purchase.parallax{
+  .status-bar-wrapper{
+    display: none;
+  }
+
+  .purchase{
     width: 80%;
-    padding: 63px 77px 53px;
+    padding: 63px 75px 53px;
 
   }
 
-  .parallax .purchase-title{
+  .purchase .purchase-title{
     text-align: center;
     float: none;
 
   }
 
-  .parallax .purchase-button{
-    margin-left: 230px;
+  .purchase .purchase-button{
+    margin-left: 220px;
 
   }
 
@@ -69,6 +73,10 @@
 
   }
 
+  .text-area .text {
+    padding-bottom: 20px;
+  }
+
   .text-area .sub-text{
   font-size: 14px;
   
@@ -76,16 +84,27 @@
 
   .purchase-banner .purchase-button{
     font-size: 14px;
-    padding: 5px 30px;
+    padding: 0 30px;
   }
 
   .footer .footer-topic {
-    width: 43%;
+    width: 40%;
     padding-right: 27px;
     padding-top: 82px;
-    padding-left: 26px;
+    padding-left: 40px;
 
   }
+
+  .footer-topic.tags-widget {
+    padding-top: 0px;
+  
+  }
+
+  .footer-topic.contact-info {
+    padding-top: 0px;
+  
+  }
+
 
 
 }

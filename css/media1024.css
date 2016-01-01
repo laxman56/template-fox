@@ -22,24 +22,18 @@
   }
 
   .purchase{
-    padding: 63px 34px 53px;
-    width: 43.36%;
-
-  }
-
-  .purchase.parallax{
     width: 80.11%;
     padding: 63px 102px 53px;
 
   }
 
-  .parallax .purchase-title{
+  .purchase .purchase-title{
     text-align: center;
     float: none;
 
   }
 
-  .parallax .purchase-button{
+  .purchase .purchase-button{
     margin-left: 330px;
 
   }
@@ -62,13 +56,26 @@
 
   }
 
- /* .footer .footer-topic {
+  .footer .footer-topic {
     width: 43%;
     padding-right: 27px;
     padding-top: 82px;
     padding-left: 26px;
 
-  }*/
+  }
+
+  .footer-topic.tags-widget {
+    clear: both;
+    padding-top: 0px;
+}
+
+.footer-topic.contact-info {
+    padding-top: 0px;
+}
+
+.tag-list li:nth-child(4){
+  clear: both;
+}
 
 
 	

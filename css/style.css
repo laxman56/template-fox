@@ -302,8 +302,7 @@ a{
   border-bottom: none;
 }
 
-.widget .tag-list{
-  padding: 8px 0;
+.tags-widget .tag-list{
   clear: both;
 
 }
@@ -360,7 +359,7 @@ a{
   width: 100%;
   float: left;
   clear: both;
-  padding: 13px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #25323b;
   /*background-image: url("../images/list-bullet.png");
   background-position: 2px 17px;
@@ -372,7 +371,7 @@ a{
   text-decoration: none;
   font-size: 14px;
   color: #6b757f;
-  padding-left: 20px;
+  padding-left: 3px;
 }
 
 .useful-links li a:hover{

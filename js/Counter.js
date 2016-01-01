@@ -28,19 +28,17 @@ function Counter(){
 			if( counter > maxCount )
 				clearInterval(intervalId);
 				
-		},1);
+		},10);
 
 	}
 
 
 	window.addEventListener('scroll', function(){
 		var posY = window.scrollY;
+		console.log(posY);
     
 		if(posY >= 519){
-			that.startCounter();
-		}
-
-		if(posY >= 519){
+			console.log('counter');
 			that.startCounter();
 		}
 
