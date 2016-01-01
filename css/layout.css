@@ -21,6 +21,10 @@
 .logo{
   float: left;
   width: 13.58974358974359%;
+  background-image: url("../images/logo.png");
+  height: 45px; 
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .menu{
@@ -46,33 +50,38 @@
 .slider-long {
   width: 10000px;
   height: 100%;
-  /*position: absolute;*/
-  /*background: green;*/
   z-index: 20;
+
 }
 
 .slider-image{
-  /*background-image: url("../images/cover.png");*/
-  /*background-size: 100%;*/
   width: 100%;
   float: left;
-  /*height: 100%;*/
- /* height: 500px;
-  background: purple;*/
 }
 
 .text-container{
   width: 100%;
   height: 22.82809611829945%;
-  z-index: 30;
+  z-index: 60;
   position: absolute;
   top: 51.01663585951941%;
 }
 
-.text-container .img-desc{
+.text-container.layer{
+  background: #000000;
+  opacity: .5;
+  width: 10000px
+  position: absolute;
+  z-index: 60;
+
+}
+
+.slider-wrapper .img-desc{
   height: 100%;
   width: 40.10416666666667%;
   margin: 0 auto;
+  background: #000000;
+  opacity: 0.8;
 }
 
 .btn{
@@ -81,6 +90,7 @@
   top: 33.60323886639676%;
   position: absolute;
   z-index: 40;
+
 }
 
 .btn.btn-left{
@@ -122,11 +132,10 @@
 }
 
 
-
 .status-bar-wrapper{
   width: 100%;
   background: #e36968;
-  padding: 55px 0 63px 0;
+  padding: 55px 0 64px 0;
 }
 
 .status-bar{
@@ -137,19 +146,20 @@
 
 .status-section{
   width: 25%;
-  font-family: arial;
   float: left;
+  color: #fce0df;
 }
 
 
 .purchase-wrapper{
   width: 100%;
+  color: #fdfffa;
 
 }
 .purchase{
   width: 25%;
   float: left;
-  padding: 77px 4.166666666666667% 52px 4.166666666666667%; 
+  padding: 75px 4.166666666666667% 53px; 
  
 }
 
@@ -168,17 +178,20 @@
 
 .purchase-banner{
   width: 100%;
-  background-image: url("../images/purchase-banner.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  position: relative;
 }
 
 
  /*footer*/
 
+ .footer-wrapper{
+  width: 100%;
+  background: #1a1c28;
+
+ }
+
  .footer{
   max-width: 73.125em;
-  background: #1a1c28;
   margin: 0 auto;
  }
 
@@ -191,33 +204,4 @@
   padding-top: 82px;
 }
 
-.footer-topic.social-links{
-}
-.footer-topic.news{
-
-}
-
-.footer-topic.widget{
-}
-
-.footer-topic.contact-info{
-  /*background: black;*/
-}
-
-.footer-topic:last-Child{
-  padding-right: 1px;
-}
-
-
-.footer .head{
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 21px;
-  color: #eeedf2;
-}
-
-.news .news-desc{
-  clear: both;
-  width: 100%;
-}
 

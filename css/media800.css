@@ -1,0 +1,25 @@
+@media (max-width: 800px){
+  .menu{
+    font-size: 14px;
+
+  }
+
+  .menu li{
+    padding-left: 20px;
+
+  }
+
+  .search{
+    padding-left: 20px;
+    padding-right: 10px;
+
+  }
+
+  .purchase{
+    padding: 63px 34px 53px;
+    width: 43.06%;
+    
+  }
+
+
+}

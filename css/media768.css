@@ -1,0 +1,91 @@
+@media (max-width: 768px){
+  
+	.menu{
+    font-size: 12px;
+
+  }
+
+  .menu li{
+		padding-left: 2px;
+
+	}
+
+	.search{
+		padding-left: 20px;
+
+	}
+
+  .text-container{
+    height: 15%;  
+  }
+
+  .slider-wrapper .img-desc{
+    width: 30%;
+  }
+
+	.feature{
+		width: 45%;
+    padding: 0px 3px 44px 35px;
+
+	}
+
+	.feature.design{
+		padding: 0px 3px 44px 35px;
+
+	}
+
+  .feature.short-codes{
+    padding: 0px 3px 44px 35px;
+
+  }
+
+	.purchase{
+		padding: 63px 26px 53px;
+    width: 43.23%;
+
+	}
+
+  .purchase.parallax{
+    width: 80%;
+    padding: 63px 77px 53px;
+
+  }
+
+  .parallax .purchase-title{
+    text-align: center;
+    float: none;
+
+  }
+
+  .parallax .purchase-button{
+    margin-left: 230px;
+
+  }
+
+  .purchase-banner .text-area{
+    top: 15%;
+    left: 27%; 
+    font-size: 20px;
+
+  }
+
+  .text-area .sub-text{
+  font-size: 14px;
+  
+  }
+
+  .purchase-banner .purchase-button{
+    font-size: 14px;
+    padding: 5px 30px;
+  }
+
+  .footer .footer-topic {
+    width: 43%;
+    padding-right: 27px;
+    padding-top: 82px;
+    padding-left: 26px;
+
+  }
+
+
+}

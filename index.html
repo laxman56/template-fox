@@ -1,26 +1,31 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>The Fox</title>
   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/media1024.css">
+  <link rel="stylesheet" type="text/css" href="css/media980.css">
+	<link rel="stylesheet" type="text/css" href="css/media768.css">
+  <meta charset="UTF-8">
   
 
 </head>
 <body>
 
-	<div class="main-wrapper">
+	<div class="main-wrapper" id="menuWrapper">
     
     <!-- menu starts -->
 
-		<div class="main-head">
+		<div class="main-head" id="menuHead">
 			<div class="menu-wrapper clearfix">
 
-        <div class="logo"><img src="images/logo.png"></div>
+        <div class="logo"></div>
 
         <div class="search"> 
-          <img src="images/search.png">
+          <img alt="" src="images/search.png">
         </div>
 
         <div class="menu">
@@ -43,62 +48,55 @@
     <!-- slider -->
 
 		<div class="slider-wrapper" id="slideWrapper">
+      
+      <div class = "text-container layer"></div>
+
+      <div class="text-container">
+
+        <div class="btn btn-left" id="leftBtn"><img alt="" src="images/left-btn.png"/></div>
+
+        <div class="btn btn-right" id="rightBtn"><img alt="" src="images/right-btn.png"/></div>
+
+        <div class="img-desc">
+          <img alt="" src="images/img-desc.png">
+        </div>
+
+      </div>
+
 			<div class="slider-long" id="longSlide">
-        <!--  <img src="images/img-desc.png">
-          <img src="images/img-desc.png">
-           <img src="images/img-desc.png"> -->
-
-        <ul>
+      
+        <ul class="clearfix">
 
           <li class="slider-image">              
-              <img src="images/cover.png"/>
-              <div class="text-container">
-                <div class="img-desc">
-                  <img src="images/img-desc.png">
-                </div>
-              </div>
+            <img alt="" src="images/slide-2.png"/>
           </li>
 
 
-          <li class="slider-image">              
-              <img src="images/cover.png"/>
-              <div class="text-container">
-                <div class="img-desc">
-                  <img src="images/img-desc.png">
-                </div>
-              </div>
+          <li class="slider-image">   
+            <img alt="" src="images/slide-1.png"/>         
           </li>
 
-          <li class="slider-image">
-              
-              <img src="images/cover.png"/>
-
-              <div class="text-container">
-                <div class="img-desc">
-                  <img src="images/img-desc.png">
-                </div>
-              </div>
-
+          <li class="slider-image">    
+            <img alt="" src="images/slide-3.png"/>
           </li>
 
         </ul>
-        
-				
+	
 			</div>
 		</div>
 
 
   <!-- features -->
+
     <div class="feature-wrapper">
       <div class="feature-container">
 
         <ul class="clearfix">
         
           <li class = "feature">
-            <!-- <div class="feature profile"> -->
 
               <div class="feature-head">
-                <img src="images/profile.png"/>
+                <img alt="" src="images/profile.png"/>
                 
                 <div class="head-title">
                   <p>CREATIVE TEAM PROFILE</p>
@@ -111,15 +109,13 @@
                   Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta</p>
               </div>
 
-            <!-- </div> -->
 
           </li>
 
           <li class="feature">
 
-            <!-- <div class="feature portfolio"> -->
               <div class="feature-head">
-                <img src="images/portfolio.png">
+                <img alt="" src="images/portfolio.png">
 
                 <div class="head-title">
                   <p>AMAZING PORTFOLIO</p>
@@ -132,15 +128,13 @@
                   Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
               </div>
 
-            <!-- </div> -->
 
           </li>
 
           <li class="feature design">
 
-            <!-- <div class="feature design"> -->
               <div class="feature-head">
-                <img src="images/design.png">
+                <img alt="" src="images/design.png">
 
                 <div class="head-title">
                   <p>GREAT BLOG DESIGN</p>
@@ -153,16 +147,14 @@
                   Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
               </div>
 
-            <!-- </div> -->
 
           </li>
 
           <li class="feature">
 
 
-            <!-- <div class="feature service"> -->
               <div class="feature-head">
-                <img src="images/support.png">
+                <img alt="" src="images/support.png">
                 
                 <div class="head-title">
                   <p>AWESOME SUPPORT SERVICE</p>
@@ -175,15 +167,12 @@
                   Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
               </div>
 
-            <!-- </div> -->
 
           </li>
 
           <li class="feature">
-
-            <!-- <div class="feature customize"> -->
               <div class="feature-head">
-                <img src="images/customize.png">
+                <img alt="" src="images/customize.png">
                 
                 <div class="head-title">
                   <p>EASY TO CUSTOMIZE</p>
@@ -196,15 +185,12 @@
                   Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
               </div>
 
-            <!-- </div> -->
-
           </li>
 
           <li class="feature short-codes">
-
-            <!-- <div class="feature short-codes"> -->
+            
               <div class="feature-head">
-                <img src="images/shortcodes.png">
+                <img alt="" src="images/shortcodes.png">
                 
                 <div class="head-title">
                   <p>FULL SHORTCODES READY</p>
@@ -217,11 +203,9 @@
                   Nullam jstuo eros, pellentesque a metus non, mattis volutpat libero.Prae- sent ornare felis ante, sit amet porta </p>
               </div>
 
-            <!-- </div> -->
-
           </li>
 
-        </ul>
+        </ul>        
 
       </div>
 
@@ -229,252 +213,328 @@
 
 
     <div class="status-bar-wrapper">
-      <div class="status-bar clearfix">
+      <div class="status-bar">
 
-        <div class="status-section">
-          <span class="counter">79000</span>
-          <span class= "title">PURCHASES</span>
-        </div>
+        <ul class="clearfix">
 
-        <div class="status-section">
-          <span class="counter">754</span>
-          <span class= "title">FEATURES ADDED</span>
-        </div>
+          <li class="status-section">
 
-        <div class="status-section">
-          <span class="counter">4000</span>
-          <span class= "title">TICKETS ANSWERED</span>
-        </div>
+            <span class="counter">79000</span>
+            <span class= "title">PURCHASES</span>
 
-        <div class="status-section">
-          <span class="counter">1000</span>
-          <span class= "title">YOUTUBE SUBSCRIBERS</span>
-        </div>
+          </li>
+
+          <li class="status-section">
+
+            <span class="counter">754</span>
+            <span class= "title">FEATURES ADDED</span>
+
+          </li>
+
+          <li class="status-section">
+
+            <span class="counter">4000</span>
+            <span class= "title">TICKETS ANSWERED</span>
+
+          </li>
+
+          <li class="status-section">
+
+            <span class="counter">1000</span>
+            <span class= "title">YOUTUBE SUBSCRIBERS</span>
+
+          </li>
+
+        </ul>
+
       </div>
 
      
     </div>
 
     <div class="purchase-wrapper clearfix">
+
       <div class="purchase unlmt-colors">
         <div class="purchase-title"><p>UNLIMITED COLORS</p></div>
-        <div class="purchase-descp"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed lacinia, est eget scelerisque blandit, nulla eros mollis erat, vel ornare quamm sem ut nisi. Mauris eu dolor mi. Praesent fermentumm nulla id nisi inter-dum faucibus.</p></div>
-        <div class="purchase-button"><img src="images/purchase-blue-btn.png"></div>
+
+        <div class="purchase-descp"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Duis ut lobortis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Sed lacinia, est eget scelerisque blandit, nulla eros mollis erat,
+          vel ornare quam sem ut nisi. Mauris eu dolor mi. Praesent fermentum nulla id nisi inter- dum faucibus.</p>
+        </div>
+
+        <div class="purchase-button"> PURCHASE NOW</div>
       </div>
 
       <div class="purchase customize">
         <div class="purchase-title"><p>EXTREMLY CUSTOMIZABLE</p></div>
-        <div class="purchase-descp"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed lacinia, est eget scelerisque blandit, nulla eros mollis erat, vel ornare quamm sem ut nisi. Mauris eu dolor mi. Praesent fermentumm nulla id nisi inter-dum faucibus.</p></div>
-        <div class="purchase-button"><img src="images/purchase-sblue-btn.png"></div>
+
+        <div class="purchase-descp"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Duis ut lobortis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+          posuere cubilia Curae; Sed lacinia, est eget scelerisque blandit, nulla eros mollis erat, 
+          vel ornare quam sem ut nisi. Mauris eu dolor mi. Praesent fermentum nulla id nisi inter- dum faucibus.</p>
+        </div>
+
+        <div class="purchase-button"> PURCHASE NOW</div>
+
       </div>
 
       <div class="purchase parallax">
         <div class="purchase-title"><p>PARALLEX BACKGROUND SECTION</p></div>
-        <div class="purchase-descp"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed lacinia, est eget scelerisque blandit, nulla eros mollis erat, vel ornare quamm sem ut nisi. Mauris eu dolor mi. Praesent fermentumm nulla id nisi inter-dum faucibus.</p></div>
-        <div class="purchase-button"><img src="images/purchase-green-btn.png"></div>
+
+        <div class="purchase-descp"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Duis ut lobortis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+          posuere cubilia Curae; Sed lacinia, est eget scelerisque blandit, nulla eros mollis erat, 
+          vel ornare quam sem ut nisi. Mauris eu dolor mi. Praesent fermentum nulla id nisi inter- dum faucibus.</p>
+        </div>
+
+        <div class="purchase-button"> PURCHASE NOW</div>
+
       </div>
     
     </div>
 
+
     <div class="purchase-banner">
-        <div class="text-area">
-          <p>Need To Grow <span>YOUR CREATIVE</span> Site</p>
+      <img alt="" src="images/purchase-banner.png">
+
+      <div class="text-area">
+        <div class="text">
+          <p>Need To Grow <span class="banner-text">YOUR CREATIVE</span> Site <br> 
+          <span class="sub-text">Convert Visitors into Customers And Generate More Sales </span></p>
         </div>
+        
+
+        <div class="purchase-button">PURCHASE</div>
+
+      </div>
+
     </div>
 
 
-    <div class="footer clearfix">
-      <div class="footer-topic social-links">
-        <div class="footer-logo">
-          <img src="images/logo.png">
+
+    <!-- footer section -->
+    <div class="footer-wrapper">
+
+
+      <div class="footer clearfix">
+        <div class="footer-topic social-media">
+
+          <div class="footer-logo">
+            <img alt="" src="images/logo.png">
+          </div>
+
+          <div class="footer-content clearfix">
+
+            <div class="text-content">
+              <p>Vivamus viverra, ligula non tincidunt pulvi-nar, augue est sagittis leo, id feugiat enim lorem quis nisl.
+              Quisque ac arcu egestas, convallis risus vitae, gravida enim.</p>
+
+              <p>Praesent iaculis ut lacus a mattis. Nam inter- dumm nulla id sodales viverra, quam eros commodo est, quis aliquam lectus.</p>
+            </div>
+            
+            <div class="read-more">
+              <img alt="" src="images/read-more.png"/>
+              <p>Read More</p>
+            </div>
+
+            <div class="link-collection">
+              <ul class ="clearfix">
+
+                <li> 
+                  <img alt="" src="images/rss.png"/>
+                  <p>Subscribe</p>
+                  <p> to RSS Feed</p>
+                
+                </li>
+
+                <li> 
+                  <img alt="" src="images/twitter.png"/>
+                  <p>Follow Us</p>
+                  <p>on Twitter</p>
+
+                </li>
+
+                <li> 
+                  <img alt="" src="images/facebook.png"/>
+                  <p>Find Us</p>
+                  <p>on Facebook</p> 
+
+                </li>
+
+                <li>  
+                  <img alt="" src="images/google-plus.png"/>
+                  <p>Find Us</p>
+                  <p> on Google+</p>
+
+                </li>
+
+                <li>  
+                  <img alt="" src="images/pinterest.png"/>
+                  <p>Follow Us</p>
+                  <p>on Pinterest</p>
+
+                </li>
+
+                <li>  
+                  <img alt="" src="images/dribble.png"/>
+                  <p>Follow Us</p>
+                  <p>on Dribble</p>
+
+                </li>
+
+              </ul>
+              
+          </div>
+
+          </div>
+
         </div>
-        <div class="footer-text">
-          <p>Vivamus viverra, ligula non tincidunt pulvi-nar, augue est sagittis leo, id feugiat enim lorem quis nisl. Quisque ac arcu egestas, convallis risus vitae, gravida enim.</p>
-          <p>
-            <span class="footer-text-padding">
-              Praesent iaculis ut lacus a mattis. Nam inter- dumm nulla id sodales viverra, quam eros commodo est, quis aliquam lectus.
-            </span></p>
 
-        <div class="read-more">
-          <img src="images/read-more.png"/>
-          <p>Read More</p>
-        </div>
-        <div class="link-collection">
-          <div class="links">
-            <img src="images/rss.png"/>
-            <p><span class  = "subscribe">Subscribe</span></p>
-            <p> to RSS Feed</p>
-          </div>
+        <div class="footer-topic news">
+          <p><span class="head">Latest News</span></p>
 
-          <div class="links">
-            <img src="images/twitter.png"/>
-            <p><span class  = "subscribe">Follow Us</p>
-            <p> on Twitter</p>
-          </div>
+          <div class="news-desc">
+            <ul>
+              <li>
+                <img alt="" src="images/title-blog-1.png"/>
 
-          <div class="links">
-            <img src="images/facebook.png"/>
-            <p><span class  = "subscribe">Find Us</span></p>
-            <p>on Facebook</p>
-          </div>
+                <h1>Your Title Blog Here</h1>
+                <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi biben- dum est quis arcu...</p>
+                
+                <span class="date">21 December,2017</span>
 
-          <div class="links">
-            <img src="images/google-plus.png"/>
-            <p><span class  = "subscribe">Find Us</span></p>
-            <p> on Google+</p>
-          </div>
+              </li>
 
-          <div class="links">
-            <img src="images/pinterest.png"/>
-            <p><span class  = "subscribe">Follow Us</span></p>
-            <p>on Pinterest</p>
-          </div>
+              <li>
+                <img alt="" src="images/title-blog-2.png"/>
 
-          <div class="links">
-            <img src="images/dribble.png"/>
-            <p><span class  = "subscribe">Follow Us</span></p>
-            <p>on Dribble</p>
+                <h1>Your Title Blog Here</h1>
+                <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi biben-  dum est quis arcu...</p>
+
+                <span class="date">21 December,2017</span>
+
+              </li>
+
+              <li>
+                <img alt="" src="images/title-blog-3.png"/>
+
+                <h1>Your Title Blog Here</h1>
+                <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi biben- dum est quis arcu...</p>
+
+                <span class="date">21 December,2017</span>
+
+              </li>
+
+            </ul>
+
           </div>
           
         </div>
 
+        <div class="footer-topic tags-widget">
+
+          <p><span class="head">Tags Widget</span></p>
+
+          <div class="tag-list">
+            <ul class = "clearfix">
+
+              <li>
+                <p>awesome</p>
+              </li>
+
+              <li>
+                <p>beautiful</p>
+              </li>
+
+              <li>
+                <p>flat design</p>
+              </li>
+
+              <li>
+                <p>ios</p>
+              </li>
+
+              <li>
+                <p>themforest</p>
+              </li>
+
+              <li>
+                <p>mass</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="useful-links ">
+            <p><span class="links">Useful Links</span></p>
+
+            <ul class="clearfix">
+
+              <li>
+               <a href="#">Web Design Resources</a>
+              </li>
+
+              <li>
+               <a href="#">Help Center</a>
+              </li>
+
+              <li>
+               <a href="#">Download Center</a>
+              </li>
+
+              <li>
+               <a href="#">User Account</a>
+              </li>
+
+              <li>
+               <a href="#">Support FOrum</a>
+              </li>
+
+              <li>
+               <a href="#">Shortcodes Page Ready</a>
+              </li>
+
+            </ul>
+          </div>
+          
+
         </div>
+        <div class="footer-topic contact-info">
+          <p><span class="contact-head">Contact Info</span></p>
 
-
-      </div>
-      <div class="footer-topic news">
-        <div class="head">Latest News</div>
-
-        <div class="news-desc">
           <ul>
             <li>
-              <img src="images/title-blog-1.png"/>
-              <h1>Your Title Blog Here</h1>
-              <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi biben-dum est quis arcu...</p>
-              <span class="date">21 December,2017</span>
+              <p> <span class="office-name">Office One</span>
+              <span class="office-address">164 Nguyen xi, Binh Thanh, Ho Chi Minh Vietnam</span> </p>
             </li>
 
             <li>
-              <img src="images/title-blog-2.png"/>
-              <h1>Your Title Blog Here</h1>
-              <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi biben-dum est quis arcu...</p>
-              <span class="date">21 December,2017</span>
+              <p> <span class="office-name">Office Two</span>
+              <span class="office-address">31-33B Tan Thuan St, Tan Thuan EZ,Eaast Tan Thuan Ward 11, District 7, Ho Chi Minh City, Vietnam.</span> </p>
             </li>
 
             <li>
-              <img src="images/title-blog-3.png"/>
-              <h1>Your Title Blog Here</h1>
-              <p>Phasellus ut condimentum diam, eget tempus lorem. Morbi biben-dum est quis arcu...</p>
-              <span class="date">21 December,2017</span>
+              <p><span class="office-name">Phone Number</span>
+              <span class="office-address">
+                +84935815989 <br>
+                +84935150192
+              </span></p>
             </li>
 
+            <li>
+              <p><span class="office-name">Email Addresss</span>
+              <span class="office-address">
+                tranmautritam@gmail.com <br>
+                thingocbich.dang@gmail.com
+              </span></p>
           </ul>
-
+          
         </div>
-        
 
       </div>
 
-      <div class="footer-topic widget">
-        <div class="head">Tags Widget</div>
-        <div class="tag-list clearfix">
-          <ul>
-            <li>
-              <img src="images/tag-awesome.png"/>
-            </li>
-
-            <li>
-              <img src="images/tag-beautiful.png"/>
-            </li>
-
-            <li>
-              <img src="images/tag-flat-design.png"/>
-            </li>
-
-            <li>
-              <img src="images/tag-ios.png"/>
-            </li>
-
-            <li>
-              <img src="images/tag-them-forest.png"/>
-            </li>
-
-            <li>
-              <img src="images/tag-mass.png"/>
-            </li>
-
-          </ul>
-
-
-        </div>
-        <div class="useful-links clearfix">
-          <p>Useful Links</p>
-          <ul>
-            <li>
-              <img src="images/list-bullet.png"/>
-              <p>Web Design Resources</p>
-            </li>
-
-            <li>
-              <img src="images/list-bullet.png"/>
-              <p>Help Center</p>
-            </li>
-
-            <li>
-              <img src="images/list-bullet.png"/>
-              <p>Download Center</p>
-            </li>
-
-            <li>
-              <img src="images/list-bullet.png"/>
-              <p>User Account</p>
-            </li>
-
-            <li>
-              <img src="images/list-bullet.png"/>
-              <p>Support FOrum</p>
-            </li>
-
-            <li>
-              <img src="images/list-bullet.png"/>
-              <p>Shortcodes Page Ready</p>
-            </li>
-          </ul>
-        </div>
-        
-
-      </div>
-      <div class="footer-topic contact-info">
-        <div class="head">Contact Info</div>
-        <ul>
-          <li>
-            <span class="office-name">Office One</span>
-            <span class="office-address">164 Nguyen xi, Binh Thanh, Ho Chi Minh Vietnam</span>
-          </li>
-
-          <li>
-            <span class="office-name">Office Two</span>
-            <span class="office-address">31-33B Tan Thuan St, Tan Thuan EZ,Eaast Tan Thuan Ward 11, District 7, Ho Chi Minh City, Vietnam.</span>
-          </li>
-
-          <li>
-            <span class="office-name">Phone Number</span>
-            <span class="office-address">
-              <p>+84935815989</p>
-              <p>+84935150192</p>
-            </span>
-          </li>
-
-          <li>
-            <span class="office-name">Email Addresss</span>
-            <span class="office-address">
-              <p> tranmautritam@gmail.com</p>
-              <p> thingocbich.dang@gmail.com</p>
-            </span>
-          </li>
-        </ul>
-        
-      </div>
 
     </div>
 	</div>
@@ -484,34 +544,12 @@
   <script type="text/javascript" src="js/Resolution.js"></script>
   <script type="text/javascript" src="js/Animator.js"></script>
   <script type="text/javascript" src="js/Counter.js"></script>
-  <script type="text/javascript">
-    var resolution = new Resolution();
-    var width = resolution.setWindowHeight();
-    // var slider = document.getElementsByClassName("slider-long")[0];
-    // var slider = document.getElementsByClassName("slider-long")[0];
-    // var sliderLong = slider.children[0];
-    // var slides = sliderLong.children;
-    // var counter = 1;
-    // var no_slides = slides.length;
-    // console.log(no_slides);
-    // var animator = new Animator(slider);
-    // var interval = setInterval(slide, 3000);
-    // function slide() {
-    //   // console.log('counter',counter);
-    //   if(counter==no_slides){
-    //     animator.animate("margin-left", width*(counter-1),2000);
-    //     counter = 1;
-    //   }
+  <script type="text/javascript" src="js/Slider.js"></script>
 
-    //   else{
-    //     counter++;
-    //     // console.log(counter, no_slides,'test');
-    //     // console.log("i",no_slides);
-    //     animator.animate("margin-left", -width, 2000);
-    //   }
-      
-    // }
-    
+  <script type="text/javascript">
+    var slider = new Slider();
+    document.getElementById('leftBtn').addEventListener("click",slider.moveLeft);
+    document.getElementById('rightBtn').addEventListener("click",slider.moveRight);
   </script>
-</body>
+  </body>
 </html>

@@ -4,7 +4,7 @@ function Counter(){
 	var counter = 0;
 	var maxCount;
 	var intervalId;
-  that = this;
+  	that = this;
 
 	this.startCounter = function(){
 		var length = that.element.length;
@@ -36,6 +36,10 @@ function Counter(){
 	window.addEventListener('scroll', function(){
 		var posY = window.scrollY;
     
+		if(posY >= 519){
+			that.startCounter();
+		}
+
 		if(posY >= 519){
 			that.startCounter();
 		}

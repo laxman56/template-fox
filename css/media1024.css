@@ -1,0 +1,75 @@
+@media (max-width:1024px){
+  .menu{
+    font-size: 14px;
+
+  }
+
+  .feature{
+    width: 40%;
+    padding: 0px 3px 44px 70px;
+
+  }
+
+  .feature.design{
+    padding: 0px 3px 44px 70px;
+
+  }
+
+
+  .feature.short-codes{
+    padding: 0px 3px 44px 70px;
+
+  }
+
+  .purchase{
+    padding: 63px 34px 53px;
+    width: 43.36%;
+
+  }
+
+  .purchase.parallax{
+    width: 80.11%;
+    padding: 63px 102px 53px;
+
+  }
+
+  .parallax .purchase-title{
+    text-align: center;
+    float: none;
+
+  }
+
+  .parallax .purchase-button{
+    margin-left: 330px;
+
+  }
+
+  .purchase-banner .text-area{
+    top: 20%;
+    left: 33%; 
+    font-size: 22px;
+
+  }
+
+  .text-area .sub-text{
+  font-size: 16px;
+  
+  }
+
+  .purchase-banner .purchase-button{
+    font-size: 14px;
+    padding: 5px 30px;
+
+  }
+
+ /* .footer .footer-topic {
+    width: 43%;
+    padding-right: 27px;
+    padding-top: 82px;
+    padding-left: 26px;
+
+  }*/
+
+
+	
+}
